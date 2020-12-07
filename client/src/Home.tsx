@@ -39,21 +39,12 @@ function Home() {
             </div>
             <div id="navbarMenuHeroC" className="navbar-menu">
               <div className="navbar-end">
-                <a className="navbar-item is-active" href="">
-                  Home
-                </a>
-                <a className="navbar-item" href="">
-                  Examples
-                </a>
-                <a className="navbar-item" href="">
-                  Documentation
-                </a>
                 <span className="navbar-item">
-                  <a className="button is-success is-inverted" href="">
+                  <a className="button is-success is-inverted" href="https://github.com/dhst1211/issuequest">
                     <span className="icon">
                       <i className="fab fa-github"></i>
                     </span>
-                    <span>Download</span>
+                    <span>Code</span>
                   </a>
                 </span>
               </div>
@@ -80,21 +71,6 @@ function Home() {
             </a>
           )}
         </div>
-      </div>
-
-      <div className="hero-foot">
-        <nav className="tabs">
-          <div className="container">
-            <ul>
-              <li className="is-active"><a>Overview</a></li>
-              <li><a href="">Modifiers</a></li>
-              <li><a href="">Grid</a></li>
-              <li><a href="">Elements</a></li>
-              <li><a href="">Components</a></li>
-              <li><a href="">Layout</a></li>
-            </ul>
-          </div>
-        </nav>
       </div>
     </section>
   )

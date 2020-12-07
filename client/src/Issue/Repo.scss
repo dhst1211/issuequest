@@ -1,0 +1,33 @@
+@import '../../src/style/variables.scss';
+
+.card-header-title-css {
+  flex-wrap: wrap;
+  a {
+    color: $secondary-color;
+    text-decoration: underline;
+  }
+}
+
+.card-header-title-no-issue {
+  opacity: 0.5;
+}
+
+.card-header-left {
+  margin-left: auto;
+}
+
+.star {
+  margin-left: 5px;
+}
+
+.star-icon {
+  color: yellow;
+}
+
+.location {
+  margin-right: 1em;
+}
+
+.tag {
+  margin-right: 3px;
+}

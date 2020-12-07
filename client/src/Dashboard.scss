@@ -1,0 +1,21 @@
+@import './style/variables.scss';
+
+.loading-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.repos-section {
+  
+  @media screen and (min-width: 1200px) { 
+    margin-left: 350px;
+    margin-right: 100px;
+  }
+}
+
+.tabs li.is-active a {
+  color: $secondary-color !important;
+  border-bottom-color: $secondary-color !important;
+}

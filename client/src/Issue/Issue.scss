@@ -1,0 +1,32 @@
+.issue {
+  box-shadow: -4px 8px 0px 4px rgba(0, 0, 0, 0.72) !important;
+}
+
+.issue-type {
+  font-size: initial !important;
+}
+
+.issue-list {
+  flex-wrap: wrap;
+}
+
+.issue-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.issue-date {
+  text-align: end;
+  font-weight: bolder;
+}
+
+.no-ssignee-tag {
+  font-size: x-small !important;
+}
+
+.updatedAt {
+  font-weight: lighter;
+  font-size: smaller;
+  margin-left: auto;
+}

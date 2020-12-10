@@ -1,9 +1,14 @@
 # IssueQuest
-
+Issuequest is a website for finding issues you can solve.
 
 ## Description
 
+
 ### Features 
+
+- You can check labeled issues from stared repositories at a glance.
+- Besides stared repositories, you can check the labeled issues from repositories you have already contributed.
+
 ### Background
 
 ## Installation

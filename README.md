@@ -29,16 +29,18 @@ cd issuequest
 npm isntall
 ```
 
-2. Go to github and create new Oauth app. Authorization call back will be `http://localhost:4000/auth/github/callback`.
+2. Set up [mongodb](https://docs.mongodb.com/manual/installation/).
+
+3. Go to github and create new Oauth app. Authorization call back will be `http://localhost:4000/auth/github/callback`.
 https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-an-oauth-app
 
-3. Create [.env](https://github.com/motdotla/dotenv#readme) file in top level directory. (Use .env.example as a reference)
+4. Create [.env](https://github.com/motdotla/dotenv#readme) file in top level directory. (Use .env.example as a reference)
 ```
 GITHUB_CLIENT_ID= // set client id you obtained when creating Oauth app in github.
 GITHUB_CLIENT_SECRET= // set client secret you obtained when creating Oauth app in github.
 GITHUB_CALLBACK_URL=http://localhost:4000/auth/github/callback
 
-MONGO_URL=
+MONGO_URL= // your mongodb url(https://docs.mongodb.com/manual/reference/connection-string/)
 
 COOKIE_KEY= // you have to set random string for security
 

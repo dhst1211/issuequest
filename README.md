@@ -27,6 +27,8 @@ I hope this will reduce the time you are searching around issues and increase th
 git clone https://github.com/dhst1211/issuequest.git
 cd issuequest
 npm isntall
+cd client && npm install
+cd ..
 ```
 
 2. Set up [mongodb](https://docs.mongodb.com/manual/installation/).
@@ -48,7 +50,7 @@ CLIENT_URL=http://localhost:3000
 NODE_ENV=development
 ```
 
-### Requirements
+5. Run `npm run dev`. Both backend and frontend will start.
 
 
 ### debug

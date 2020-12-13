@@ -27,6 +27,20 @@ cd issuequest
 npm isntall
 ```
 
+Create .env file in top level directory. (Use .env.example as a reference)
+```
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+GITHUB_CALLBACK_URL=http://localhost:4000/auth/github/callback
+
+MONGO_URL=
+
+COOKIE_KEY= // you have to set random string for security
+
+CLIENT_URL=http://localhost:3000
+NODE_ENV=development
+```
+
 ### Requirements
 ### .env file
 

@@ -21,7 +21,14 @@ I hope this will reduce the time you are searching around issues and increase th
 
 ## Installation
 
+```
+git clone https://github.com/dhst1211/issuequest.git
+cd issuequest
+npm isntall
+```
+
 ### Requirements
+### .env file
 
 ### debug
 run `npm run debug` in VSCode console

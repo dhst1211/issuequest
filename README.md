@@ -21,15 +21,18 @@ I hope this will reduce the time you are searching around issues and increase th
 
 ## Installation
 
+1. clone from github.
+
 ```
 git clone https://github.com/dhst1211/issuequest.git
 cd issuequest
 npm isntall
 ```
-Go to github and create new Oauth app. Authorization call back will be `http://localhost:4000/auth/github/callback`.
+
+2. Go to github and create new Oauth app. Authorization call back will be `http://localhost:4000/auth/github/callback`.
 https://docs.github.com/en/free-pro-team@latest/developers/apps/creating-an-oauth-app
 
-Create [.env](https://github.com/motdotla/dotenv#readme) file in top level directory. (Use .env.example as a reference)
+3. Create [.env](https://github.com/motdotla/dotenv#readme) file in top level directory. (Use .env.example as a reference)
 ```
 GITHUB_CLIENT_ID= // set client id you obtained when creating Oauth app in github.
 GITHUB_CLIENT_SECRET= // set client secret you obtained when creating Oauth app in github.

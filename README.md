@@ -52,14 +52,6 @@ NODE_ENV=development
 
 5. Run `npm run dev`. Both backend and frontend will start.
 
-
-### debug
-run `npm run debug` in VSCode console
-
-attach by process id -> ts-node-dev hook
-
-## Deployment
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

@@ -27,7 +27,7 @@ cd issuequest
 npm isntall
 ```
 
-Create .env file in top level directory. (Use .env.example as a reference)
+Create [.env](https://github.com/motdotla/dotenv#readme) file in top level directory. (Use .env.example as a reference)
 ```
 GITHUB_CLIENT_ID=
 GITHUB_CLIENT_SECRET=
